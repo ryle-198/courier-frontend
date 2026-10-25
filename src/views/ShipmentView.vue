@@ -163,7 +163,7 @@ function closeForm(){
 }
 
 function submitForm(){
-  if(!form.value.shipmentId || !fomr.value.orderId){
+  if(!form.value.shipmentId || !form.value.orderId){
     alert('Shipment ID and Order ID are required')
     return
   }
